@@ -1,5 +1,5 @@
 # neural fpga (working code is in weightFactory)
-# next steps are applying it to the fpga and creating seperate files for each class 
+### next steps are applying it to the fpga and creating seperate files for each class 
 
 This project implements a basic neural network with multiple layers in C++. The network reads data from a CSV file, applies weights and biases to inputs using the sigmoid activation function, and processes multiple layers to produce an output.
 
