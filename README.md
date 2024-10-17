@@ -1,5 +1,7 @@
 # neural fpga (working code is in weightFactory)
 ### next steps are applying it to the fpga and creating seperate files for each class 
+### if you want to test it with MNIST dataset change the filename of model_weights_and_biases.csv to smaller.csv and change the smaller.csv file name to temp.csv
+### The current code in `weightFactory` is set to be smaller in order to minimize computational energy until the FPGA is implemented.
 
 This project implements a basic neural network with multiple layers in C++. The network reads data from a CSV file from a simple feed-forward neural network using PyTorch to classify images of handwritten digits from the MNIST dataset. The model has two hidden layers and uses the ReLU activation function, trained with the Adam optimizer and Cross-Entropy Loss, applies weights and biases to inputs using the sigmoid activation function, and processes multiple layers to produce an output.
 
