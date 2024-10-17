@@ -12,8 +12,15 @@ This project implements a basic neural network with multiple layers in C++. The 
 ### Features for PyTorch code
 #### Neural Network Architecture:
 Input layer (784 units, corresponding to 28x28 images)
+
+
 Two hidden layers (128 and 64 units)
+
+
 Output layer (10 units, one for each digit class)
+
+
+
 #### MNIST Dataset: Handwritten digit images from 0 to 9.
 #### Training and Evaluation: The network is trained on 60,000 training samples and evaluated on 10,000 test samples.
 #### Weights and Biases Export: The model's weights and biases are saved to a CSV file after training.
